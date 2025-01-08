@@ -45,7 +45,8 @@ app.*.map.json
 # Android Studio will place build artifacts here
 /android/app/debug
 /android/app/profile
-/
+
+
 # Firebase build and deployment files
 /firebase-debug.log
 /firebase-debug.*.log
@@ -74,16 +75,26 @@ yarn-error.log*
 
 # Environment files (local configs)
 /.env.*
+
 # Firebase and API keys
+macos/Runner/GoogleService-Info.plist
+ios/Runner/GoogleService-Info.plist
+lib/firebase_options.dart
 firebase_options.dart
 ios/Runner/GoogleService-Info.plist
 android/app/google-services.json
+
+/android/app/release
+# Firebase ve hassas dosyalar
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
 firebase.json
 
 # Derleme dosyaları
 ios/build/
 android/.gradle/
 
+<<<<<<< HEAD
 # Android related
 **/gradle-wrapper.jar
 **/android/.gradle
@@ -139,3 +150,5 @@ yarn.lock
 !**/ios/**/default.pbxuser
 !**/ios/**/default.perspectivev3
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
+=======
+>>>>>>> 36f296f (Add sensitive files to .gitignore)
