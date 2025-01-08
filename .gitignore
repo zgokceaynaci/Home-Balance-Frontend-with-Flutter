@@ -85,9 +85,11 @@ ios/Runner/GoogleService-Info.plist
 android/app/google-services.json
 
 /android/app/release
-# Firebase ve hassas dosyalar
-android/app/google-services.json
+
+# Firebase and API keys
+firebase_options.dart
 ios/Runner/GoogleService-Info.plist
+android/app/google-services.json
 firebase.json
 # Firebase Keys
 GoogleService-Info.plist
