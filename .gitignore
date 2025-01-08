@@ -89,12 +89,17 @@ android/app/google-services.json
 android/app/google-services.json
 ios/Runner/GoogleService-Info.plist
 firebase.json
+# Firebase Keys
+GoogleService-Info.plist
+google-services.json
+# Android Keys
+*.keystore
+
 
 # Derleme dosyaları
 ios/build/
 android/.gradle/
 
-<<<<<<< HEAD
 # Android related
 **/gradle-wrapper.jar
 **/android/.gradle
@@ -150,5 +155,4 @@ yarn.lock
 !**/ios/**/default.pbxuser
 !**/ios/**/default.perspectivev3
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
-=======
->>>>>>> 36f296f (Add sensitive files to .gitignore)
+
