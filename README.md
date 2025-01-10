@@ -25,7 +25,7 @@ This is the frontend for **HomeBalance**, a mobile application built with Flutte
    git clone https://github.com/zgokceaynaci/HomeBalance-frontend.git
    cd HomeBalance-frontend
 2. Set up environment variables:
-   Create a .env file in the root directory and add:
+   - Create a .env file in the root directory and add
    ```bash
    FIREBASE_API_KEY=your_firebase_api_key
 3. Get dependencies:
