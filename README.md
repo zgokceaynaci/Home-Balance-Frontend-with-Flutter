@@ -35,10 +35,10 @@ This is the frontend for **HomeBalance**, a mobile application built with Flutte
     ```bash
     flutter run
 
-Project Structure:
--lib: Contains the main application code
--assets: Stores images, fonts, and other resources
--test: Unit and widget tests    
+## Project Structure:
+- lib: Contains the main application code
+- assets: Stores images, fonts, and other resources
+- test: Unit and widget tests    
 
 
 
