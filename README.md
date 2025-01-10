@@ -22,8 +22,8 @@ This is the frontend for **HomeBalance**, a mobile application built with Flutte
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/zgokceaynaci/HomeBalance-frontend.git
-   cd HomeBalance-frontend
+   git clone https://github.com/zgokceaynaci/Home-Balance-Frontend-with-Flutter.git
+   cd Home-Balance-Frontend-with-Flutter
 2. Set up environment variables:
    - Create a .env file in the root directory and add
    ```bash
