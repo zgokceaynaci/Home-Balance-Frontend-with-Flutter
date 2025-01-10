@@ -22,7 +22,7 @@ This is the frontend for **HomeBalance**, a mobile application built with Flutte
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<kullanıcı-adın>/HomeBalance-frontend.git
+   git clone https://github.com/<zgokceaynaci>/HomeBalance-frontend.git
    cd HomeBalance-frontend
 2. Set up environment variables:
    Create a .env file in the root directory and add:
